@@ -1,0 +1,189 @@
+Blatt 2 Aufgabe a-f: Paul Conrad 358940, Marc Palfner 359899 
+
+EVA-Prinzip:
+
+Eingabe:
+Bei Aufgabe a-f werden keine Nutzereingaben benötigt. Die Werte für die 
+Berechnungen sind bekannt. 
+
+Ausgabe:
+Ausgegeben werden die Lösungen der Matheaufgaben. Diese werden zuvor in einer
+separaten Variable gespeichert und dann über einen System.out.println();-Befehl
+ausgegeben. 
+
+Verarbeitung:
+Die Aufgaben a-f werden über verschiedene Mathematische-Operatoren verarbeitet.
+Entweder wird die Aufgabe berechnet oder durch einen boolean der Wahrheitsgehalt
+einer Aussage erfasst. Die einzelne Verarbeitung der jeweiligen Aufgabe, werde
+ich im nächsten Schritt aufschreiben und verfeinern.
+
+
+
+
+Aufgabe 1 a)
+Differenz der Ganzzahlen 1024 und 621
+
+
+0. Verfeinerung
+
+/*<Ich subtrahiere den kleineren Wert vom größeren und gebe das ergebnis aus>*/ 
+
+
+1. Verfeinerung
+Idee: Ich teile den benötigten Algorithmus in mehrere Zwischenschritte auf.
+
+/*< Eine Variable speichert den Wert der Subtraktion von 1024 und 621>*/
+/*< Der Wert der Variable wird in die Konsole geschrieben>*/
+
+
+2. Verfeinerung 
+Idee: Ich nutze einfache Java-Befehle um den Algorithmus umzusetzen.
+
+int a = 1024 - 621;
+System.out.println("Das Ergebniss von Aufgabe a) ist: ");
+System.out.println(a);
+
+
+
+
+Aufgabe 1 b)
+Ergebnis der Ganzzahl-Division von 22 geteilt durch 7 sowie den zugehörigen
+Divisionsrest.
+
+
+0. Verfeinerung
+
+/*< Ich teile 22 durch 7 und speichere das Ergebnis ab. Anschließend speichere 
+ * ich den Rest von 22 durch 7 in einer separaten Variable. Danach gebe ich 
+   beide Variablen über die Konsole aus.>*/
+ 
+
+1. Verfeinerung
+Idee: Ich teile den Algorithmus in mehrere Zwischenschritte auf.
+
+/*<Ergebnis von 22 durch 7 wird in einer Variable abgespeichert>*/
+/*<Rest von 22 durch 7 wird in einer separaten Variable gespeichert>*/
+/*<Beide Variablen werden über die Konsole ausgegeben>*/
+
+
+2. Verfeinerung
+Idee: Ich nutze einfache Java-Befehle um die Zwischenschritte umzusetzen.
+
+int b = 22 / 7;
+int rest = 22 % 7;
+System.out.print("Das Ergebniss von Aufgabe b) ist: ");
+System.out.println(b);
+System.out.print("Der Rest von Aufgabe b) ist: ");
+System.out.println(rest);
+
+
+ 
+ 
+Aufgabe 1 c)
+Summe der Fließkommazahlen von 91.23 und 18.21.
+
+0. Verfeinerung 
+
+/*<Ich addiere beide Werte und speichere diese in einer double-Variable.>*/
+
+
+1. Verfeinerung
+Idee: Ich teile den Algorithmus in mehrere Zwischenschritte auf.
+
+/*<Die Summe beider Werte wird in einer double-Variable gespeichert>*/
+/*<Die double-Variable wird in die Konsole geschrieben>*/
+
+
+2. Verfeinerung
+Idee: Ich nutze einfache Java-Befehle um die Zwischenschritte umzusetzen
+
+double c  = 91.23 + 18.21;
+System.out.print("Das Ergebniss von Aufgabe c) ist: ");
+System.out.println(c);
+
+
+
+
+Aufgabe 1 d)
+Ist die Ganzzahl 128 gerade?
+
+0. Verfeinerung
+Überlegung: Wenn 128 % 2 = 0 ergibt, dann ist 128 gerade.
+
+/*<Ich speichere das ergebnis von 128 % 2 als Integer ab. Wenn der Wert der  
+   Variable bei 0 liegt, wissen wir, dass 128 gerade ist.>*/
+
+
+1. Verfeinerung
+Idee: Ich teile den Algorithmus in mehrere Zwischenschritte auf.
+
+/*<Ich speichere den Wert von 128 % 2 in einer Variable ab.>*/
+/*<Ich nutze eine if Anweisung um zu schauen ob es einen Rest gibt>*/
+/*<Gibt es keinen Rest, so wird in die Konsole geschrieben, dass die Zahl gerade
+   ist. Bei Rest wissen wir, dass die Zahl nicht gerade ist.>*/ 
+ 
+
+2. Verfeinerung
+Idee: Ich nutze einfache Java-Befehle um die Zwischenschritte umzusetzen
+
+int d = 128 % 2;
+if(d == 0) {
+    System.out.println("128 ist eine gerade Zahl");
+} else {
+    System.out.println("128 ist keine gerade Zahl");
+}
+ 
+
+ 
+
+Aufgabe 1 e)
+Ist die Ganzzahl 7 größer ist als 1 und kleiner als 19?
+
+0. Verfeinerung
+
+/*<Ich speichere die Bedingungen in einem boolean ab. Ist dieser "true", stimmt 
+   die gegebene Bedingung.>*/
+ 
+
+1. Verfeinerung
+Idee: Ich breche den Algorithmus in mehrere Zwischenschritte auf.
+
+/*<Wahrheitsgehalt von 7 größer als 1 und kleiner als 19 wird in einem boolean
+   abgespeichert.>*/
+/*<Der Wert der boolean-Variable wird in die Konsole geschrieben.>*/
+
+
+2. Verfeinerung
+Idee: Ich nutze einfache Java-Befehle um die Zwischenschritte umzusetzen
+
+boolean e = 7 > 1 && 7 < 19;
+System.out.print("Ist die Ganzzahl 7 groesser als 1 und kleiner als 19? ");
+System.out.println(e);
+
+
+
+
+Aufgabe 1 f)
+Ist die Fließkommazahl -1.0 entweder kleiner als 0.5 oder größer als 10.2?
+
+0. Verfeinerung 
+
+/*<Ich speichere die Bedingungen in einem boolean ab. Ist dieser "true",
+   stimmt die gegebene Bedingung.>*/
+
+
+1. Verfeinerung
+Idee: Ich breche den Algorithmus in mehrere Zwischenschritte auf.
+
+/*<Wahrheitsgehalt von -1.0 entweder kleiner als 0.5 oder größer als 10.2 wird
+   in einem boolean abgespeichert.>*/
+/*<Wert der boolean-Variable wird in die Konsole geschrieben.>*/
+
+
+2. Verfeinerung
+Idee: Ich nutze einfach Java-Befehle um die Zwischenschritte umzusetzen
+
+boolean f = -1.0f < 0.5f || -1.0f > 10.2f;
+System.out.print("Ist die Fliesskommazahl -1.0 Entweder kleiner als 0.5 "
++" oder groesser als 10.2? ");
+System.out.println(f);   

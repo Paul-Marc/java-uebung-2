@@ -1,0 +1,19 @@
+Blatt 2 Aufgabe a-f: Paul Conrad 358940, Marc Palfner 359899 
+
+Folgende Ziele sollen erreicht werden:
+a) Die Differenz der Ganzzahlen 1024 und 621 soll über die Konsole ausgegeben
+   werden
+   
+b) Das Ergebnis der Ganzzahl-Division von 22 durch 7 sowie der Divisionsrest
+   soll über die Konsole ausgegeben werden.
+   
+c) Die Summe der Fließkommazahlen von 91.23 und 18.21 soll über die Konsole
+   ausgegeben werden.
+   
+d) Es soll über die Konsole ausgegeben werden, ob die Ganzzahl 128 gerade ist.
+
+e) Es soll über die Konsole ausgegeben werden, ob die Ganzzahl 7 größer ist als
+   1 und kleiner als 19.
+
+f) Es soll über die Konsole ausgegeben werden, ob die Fließkommazahl -1.0
+   entweder kleiner als 0.5 oder größer als 10.2 ist.
